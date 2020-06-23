@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formular Comanda</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+     <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+     <script type="text/javascript" src="script.js"></script>
+
+     <link rel="stylesheet" type="text/css" href="formular.css">
+
+
+
+
+
+</head>
+<body onload="getForm()"> 
+
+	<div id="dataForm">
+		<h3>Pentru a finaliza comanda va rugam sa completati datele de mai jos:</h3>
+		<form name="myForm" action="formular.html" id="contactForm" method="post">
+		<label class="label" for="nume">Nume si prenume:</label><input type="text" id="nume" name="nume"><br>
+	<label class="label" for="email">Email:</label><input type="email" id="email" name="email"><br>
+<label class="label" for="telefon">Telefon:</label><input type="number" id="numar" name="numar" required><br>
+<label class="label" for="adresa">Adresa:</label><textarea rows="8" cols="50" id="adresa" name="adresa"></textarea><br>
+<label class="label" for="localitate">Localitate:</label><input type="text" id="localitate" min="2" name="localitate"><br>
+<label class="label" for="Judet/Sector">Judet/Sector:</label>
+<select id="judet" required>
+	<option disable="disabled"></option>
+	<option value="Bucuresti">Bucuresti</option>
+	<option value="Cluj">Cluj</option>
+	<option value="Iasi">Iasi</option>
+</select><br>
+<label class="label" for="plata">Plata:</label>
+<select id="plata" required>
+	<option disable="disabled"></option>
+	<option value="ramburs">Ramburs</option>
+	<option value="virament">Virament</option>
+</select><br>	
+		
+<button id="submitButton" onclick="validateForm()">Finalizare comanda</button>	
+		</form>
+
+	</div>
+	 
+<div id="place"></div>
+
+	 
+
+
+
+
+
+
+ 
+
+</body>
+</html>

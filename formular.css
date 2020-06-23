@@ -1,0 +1,116 @@
+#dataForm{
+	margin:0 auto;
+	background-color: #B0E0E6;
+	width: 50rem;
+	height: 36rem;
+	box-sizing: border-box;
+	padding-bottom:1px;
+
+ 
+}
+
+#contactForm{
+	 
+	font-family: Tahoma;
+	color:#191970;
+	width:10rem;
+	font-size:0.8rem;
+	font-weight: bolder;
+	margin-left: 1rem;
+
+}
+
+select,option{
+color:#191970;
+height:1.1rem;
+
+}
+
+
+
+label{
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+}
+
+h3{
+	padding-left:2rem;
+	padding-top: 2rem;
+	font-family: Cooper;
+	color:#191970;
+
+
+}
+
+#nume,#email,#numar,#adresa,#localitate,#judet,#plata{
+ 
+	margin-left:1rem;
+
+
+}
+
+#nume,#email,#numar,#localitate,#judet,#plata{
+	width:10rem;
+}
+
+#judet{
+	margin-bottom: 1rem;
+}
+
+
+ table{
+ 	margin:1rem auto;
+ 	width:50rem;
+ 	position:relative;
+ }
+
+table,th,tr,td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+input{
+	margin-bottom: 1rem;
+}
+
+button{
+	border-radius:0.5rem;
+}
+
+button:hover{
+	cursor:pointer;
+}
+
+ #youtubeVideo,#imagineLink{
+ 	position:absolute;
+ 	visibility: hidden;
+ }
+
+ #submitButton{
+ 
+ position:relative;
+ margin-left: 18rem;
+ bottom:-1rem;
+ display: block;
+ width:13rem;
+ height: 2rem;
+ color:#191970;
+ font-family:Cooper; 
+ font-size:1.1rem;
+ background-color:#E0FFFF; 
+ border:none;
+
+}
+
+#submitButton:hover{
+	background-color:#00FF7F;
+}
+
+#sumFooter{
+	display:none;
+}
+
+
+ 
+ 
+ 

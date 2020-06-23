@@ -1,0 +1,532 @@
+html,body,*{
+	 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   }
+
+ 
+
+#header{
+   width:100%;
+   height:9rem;
+   /*background-color:#AFEEEE; */
+   background-image: linear-gradient(to right,#AFEEEE,#7FFFD4,#E0FFFF);
+   position:relative;
+   /*margin:0 auto;*/
+
+   }
+
+#item1{
+	width:25%;
+	height:100%;
+	float:left;
+	 
+ }
+
+#item2{
+	width:60%;
+	height:100%;
+    float:left;
+    
+} 
+
+#item3{
+	width:14%;
+	height:100%;
+	float:left;
+	 
+}
+
+#logo{
+	font-family:"Bauhaus 93";
+	color:#1C365B;
+	font-size:5rem;
+	font-weight: 900;
+	position:relative;
+	margin:0.2rem 0.8rem;
+}
+
+#black{
+	width:32%;
+	margin-top:1px; 
+	float:left;
+	font-size:4.5rem;
+    font-style: italic;
+	font-family: Cooper Black;
+	animation-name: fadeIn;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	}
+
+@-webkit-keyframes fadeIn{
+	from {opacity: 0.1;}
+	to {opacity:1;}
+}
+
+ #edition{
+ 	width:45%;
+ 	margin-top:3rem;
+ 	margin-left: 0.3rem;
+ 	float:left;
+ 	font-size:4.5rem;
+	font-style: italic;
+	font-family: Cooper Black;
+	animation-name: secondfadeIn;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	 
+
+}
+
+@-webkit-keyframes secondfadeIn{
+	from {opacity:0.1;}
+	to {opacity:1;}
+}
+
+
+ .clearfix{clear:both;}
+
+img[alt*="blackLogo"]{
+	width:20%;
+	height:100%;
+    float:left;
+}
+
+img[alt^="faber"]{
+	width:95%;
+	height:60%;
+	margin-top:2rem; 
+}
+
+#facebookIcon{
+	width:2.5rem;
+	height:2.5rem;
+	position:relative;
+	left:35%;
+	top:15%;
+	transition:background-color 3s,ease-in-out;
+	 }
+
+#youtubeIcon{
+	width:2rem;
+	height:2rem;
+	position:relative;
+	left:35%;
+	top:5%;
+
+	transition:border 3s,ease-in-out; 
+	 }
+
+ #facebookIcon:hover{
+  background-color: #40E0D0;
+}
+
+ #youtubeIcon:hover{
+  border:3px solid #FAFAD2;
+}
+
+
+ 
+#headerBorder{
+	width:100%;
+	height:3rem;
+	background-color:#2F4F4F;
+	position:relative;
+}
+
+#infoLink{
+	 
+	color:white;
+	font-size:1.1rem;
+    left:44.1%;
+    position:relative;
+	display:block;
+	width:11.52rem;
+	height:3rem; 
+	padding: 0.8rem;
+	font-family: Georgia;
+	letter-spacing: 0.1rem;
+	text-align: center;
+	border-radius: 0.3rem;
+	background-color: #696969;
+	  }
+
+#infoLink:hover{
+	cursor:pointer;
+}	
+
+ 
+
+#infoSection{
+	background-color: #BBFFFF;
+	border:0.2rem solid #2F4F4F;
+    border-style:hidden solid solid;
+	text-align: center;
+	width: 60rem;
+	height: 18rem;
+	padding-top:2.5%;
+	font-family: Tahoma;
+	font-size:1.2rem;
+	line-height: 2rem;
+	color:#2F4F4F;
+	margin:0 auto;
+	border-radius: 2rem;
+	display:none;
+	position:absolute;
+	left:14%;
+	top:0.5%;
+     
+}
+
+#close{
+	font-size:0.9rem;
+	font-weight: bolder;
+	padding:0.3rem 0.6rem;
+	background-color: #2F4F4F;
+	color:white;
+	border:0.1rem solid white;
+	margin-top: 0.6rem;
+	margin-left: 0.2rem;
+
+}
+
+#close:hover{
+	cursor: pointer;
+	background-color:#708090; 
+}
+ 
+ 
+
+#mainTitle{
+	width:77rem;
+	height:20rem;
+    position:relative;
+    margin:0.1rem auto;
+	border:1px solid #EEE5DE;
+	background-color: white;
+	box-shadow: 0.7rem 0.7rem 1rem #EEE5DE;
+	border-left:0.2rem #EEE5DE;
+	border-top:0.2rem #EEE5DE;
+    }
+
+img[alt^="gamaCulori"]{
+	width:77rem;
+	height:20rem;
+}
+
+     
+#productSection{
+	width:77rem;
+	height:54rem;
+	 
+	position:relative;
+	margin:1rem auto 0.5rem;
+
+	 
+   }
+
+
+#imageGallery{
+	width:40rem;
+	height:52rem;
+	 
+	float:left;
+	position: relative;
+
+	}
+
+#imageDisplayFrame{
+	width:38.6rem;
+	height:40rem;
+	margin:0.8rem 0 2.5rem;
+	border:0.1rem solid #EBEBEB;
+	box-shadow: 0.5rem 0.5rem 0.6rem #EBEBEB;
+}
+
+img[alt^="creioane"]{
+	height:8.4rem;
+	width:5.8rem;
+	display:inline;
+	border:0.1rem solid #EBEBEB;
+	margin-right:0.4rem;
+	margin-top: 0.5rem;
+	box-shadow: 0.3rem 0.3rem 0.4rem #EBEBEB;
+	 
+	 }
+
+img[alt^="creioane"]:hover{
+       
+	cursor:pointer;
+}
+
+#startImage{
+	width:38rem;
+	height:39rem;
+}	 
+
+#productInfo{
+	width:35rem;
+	height:25rem;
+	background-color:#ADD8E6;    
+	float:left;
+    padding-top: 1rem;
+    padding-left: 1.2rem;
+	border:1px solid #4682B4;
+	margin-top: 0.8rem;
+	border-radius: 0.8rem;
+
+}
+
+table,tr,td{
+ 
+ 	color:#191970;
+ 	font-family: Tahoma;
+ }
+
+ td{
+ 	width:10.5rem;
+ 	height:4rem;
+ }
+
+ tr:hover{
+ 	background-color:#ADD8E6; 
+ }
+
+#calculate:hover
+{
+	cursor:pointer;
+	background-color:#483D8B;
+}
+
+#displayTotal:hover{
+	cursor:pointer;
+	background-color:#483D8B;
+}
+ 
+
+
+#product,#pretFinal{
+	background-color: white;
+	width:4rem;
+	height:1.7rem;
+	border:1px solid #6495ED;
+	border-radius: 0.6rem;
+	text-align: center;
+	display:inline-block;
+	margin-right: 0.2rem;
+}
+
+#number{
+	width:4rem;
+	border-radius: 0.6rem;
+	height:1.7rem;
+	border:1px solid #6495ED;
+	text-align: center;
+	float:left;
+}
+
+select{
+	height:2.1rem;
+	border-radius: 0.8rem;
+	color:#191970;
+	font-family: Tahoma;
+	font-weight:bold;
+
+}
+
+select:focus,input:focus,button:focus{
+	outline: none;
+}
+
+input{
+	color:#191970;
+	font-family: Tahoma;
+	font-weight:bold;
+}
+
+ 
+ 
+ 
+ button{
+	margin-top:1rem;
+	padding:0.5rem;
+	border-radius:0.8rem;
+	font-family: Tahoma;
+	font-size:1rem;
+	color:white;
+	background-color: #2F4F4F;
+	border:none;
+	 
+}
+
+#productInvoice{
+	width:35rem;
+	height:23rem;
+	border:1px solid #48D1CC;
+	position:relative;
+	margin-top:4rem;
+	right:4%;
+	border-radius: 0.8rem;
+    overflow-y: scroll; 
+    background-color: #E0FFFF;
+    padding: 1rem;
+    visibility: hidden;
+}
+
+ 
+#productInvoice::-webkit-scrollbar {
+  width: 1rem;
+  background-color:#20B2AA;
+  border-radius: 1.2rem;
+
+}
+ 
+#productInvoice::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+#productInvoice::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+#imagineLink{
+	width:30rem;
+	height:22rem;
+	position:absolute;
+	visibility: visible;
+}
+ 
+ th{
+ 	border:2px solid #48D1CC;
+ 	padding: 0.5em;
+  
+ 	font-size: 0.9rem;
+ 	font-weight: normal;
+ }
+ 
+ #invoiceTable{
+ 	font-size:0.8rem;
+ 	text-align: center;
+ 	border-collapse: collapse;
+}
+
+ .invoiceBorder{
+ 	border:1px solid #48D1CC;
+ 	border-style: none solid solid solid;
+ 	height:90%;
+ 	 
+ }
+ 
+#invoiceButton{
+	background-color: #AFEEEE;
+	border:1.2px solid #191970;
+	color:#191970;
+	font-size:0.9rem;
+	position: relative;
+	left: 36%;
+
+	 
+}
+
+#totalSum{
+	background-color: #F5F5F5;
+	width: 6rem;
+	height: 2.4rem;
+	border:1px solid  #8B8378;
+	border-radius: 0.5rem;
+	margin-top: 1rem;
+	text-align: center;
+	font-size: 1rem;
+	font-weight: bolder; 
+	font-family: Arial;
+	padding-top: 0.7rem;
+	color:#191970;
+
+	 
+ 
+}
+
+ 
+
+#cancelButton{
+	width:2rem;
+	height:2rem;
+	font-size:1rem;
+	color:#191970;
+	margin:0 auto;
+	background-color: #E0FFFF;
+}
+
+
+
+#sumButton{
+    width:8rem;
+    height:2.5rem;
+    font-size:0.9rem;
+    font-family: Tahoma;
+    border-radius:0.5rem;
+    margin-right: 0.8px;
+    margin-left: 0.2rem;
+    letter-spacing: 0.4px;
+ }
+ 
+ #sumFooter{
+ 	display:flex;
+ 	flex-direction: row;
+ 	flex-wrap:nowrap;
+ 	justify-content: flex-start;
+ 	align-items: center;
+ 	align-content: center;
+ 	border:1px solid #48D1CC;
+ 	border-radius:0.5rem;
+ 	width:35rem;
+ 	height:3rem;
+ 	padding-bottom:1rem;
+    margin-top: -0.3rem;
+    position:relative;
+ 	right:4%;
+ 	background-color:#E0FFFF; 
+ 	visibility: hidden;
+ 	 
+}
+
+
+
+#sumButton,#cancelButton,#invoiceButton:hover{
+	cursor:pointer;
+}
+
+#sumButton:hover{
+	background-color:#483D8B;
+} 
+ 
+#invoiceButton:hover{
+	background-color: #D8BFD8;
+} 
+
+#bottomBorder{
+	width:100%;
+	height:3rem;
+	background-color:#2F4F4F;
+	position:relative;
+ }
+
+.contactUs{
+	color:white;
+	text-decoration: none;
+	position:relative;
+	left:35%;
+	font-size:1.2rem;
+	display: inline;
+	margin-right: 0.8rem;
+	font-family:Calibri;
+	bottom:15%;
+	transition:color 3s,ease-in-out;
+}
+
+.contactUs:hover{
+	color:#00FFFF;
+
+}

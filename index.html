@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pagina Prezentare Produs</title>
+
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+     <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+     <script type="text/javascript" src="script.js"></script>
+
+     <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+  
+<div id="header">
+	 
+	 <div id="item1"><p id="logo">lecom</p></div>
+	 
+	 <div id="item2">
+	 	<p id="black">BLACK</p>
+	 	<img src="images/lecom/N_medium.jpg" alt="blackLogo">
+	 	<p id="edition">EDITION</p>
+	 	<div class="clearfix"></div>
+	 </div>
+	 
+	 <div id="item3">
+	 	<img src="images/logoF.png" alt="faber">
+	 </div>
+</div>  
+
+
+
+<div id="headerBorder">
+
+	<p id="infoLink">Despre produs</p> 
+	  
+</div>
+
+   
+        <div id="mainTitle">
+        	<img src="images/faber/gamaMic.jpg" alt="gamaCulori">
+             
+ 
+
+        
+            
+
+           	<div id="infoSection">
+           		 <p>Creioane colorate din lemn negru.</p>
+                <p>Mina foarte moale, pentru efecte minunate chiar si pe suprafete inchise.</p>
+                <p>Forma ergonomica triunghiulara.</p>
+                <p>Lipire speciala SV pentru prevenirea ruperii minei.</p>
+                <p>Culori stralucitoare, matasoase.</p>
+                <p>Creioanele sunt disponibile la set de : 12 , 24 sau 36 de culori.</p>  
+                <p>Pentru a reveni la gama completa de culori completa apasati aici &#8594;<button id="close">X</button></p>
+            </div>
+           
+             
+ 	                  
+ 	     </div>
+
+    
+
+    <div id="productSection"> 
+ 		 
+ 		<div id="imageGallery"> 
+ 			
+ 			 <div id="imageDisplayFrame"><img src="images/faber/creioane24cut.jpeg" id="startImage"></div> 
+ 		    
+ 		 <img src="images/faber/creioane24cut.jpeg" alt="creioane24cut" class="creioaneImg">  
+ 			<img src="images/faber/creioane24fara.jpg" alt="creioane24fara" class="creioaneImg"> 
+ 			<img src="images/faber/creioane12cut.jpg" alt="creioane12cut" class="creioaneImg"> 
+ 			<img src="images/faber/creioane12fara.jpg" alt="creioane12fara" class="creioaneImg"> 
+ 			<img src="images/faber/creioane36cut.jpg" alt="creioane36cut" class="creioaneImg"> 
+ 			<img src="images/faber/creioane36fara.jpg" alt="creioane36fara" class="creioaneImg">  
+ 		    
+ 		 </div> 
+ 	 
+ 		
+ 	<div id="productInfo">
+ 	 	 
+ 	 	
+      <table id="selectionTable">
+ 
+
+ 	   <tr>
+ 	   <td>	<label for="creioane">Alege produs:</label> </td>
+ 	   <td>	<select id="prices" onclick="showPrice()"> 
+    <option></option> 
+ 	 	<option value="1">Creioane colorate 12 culori</option>
+ 	 	<option value="2">Creioane colorate 24 culori</option>
+ 	 	<option value="3">Creioane colorate 36 culori</option>
+ 	 	</select>  </td>
+ 	 	<td></td>
+       </tr>
+ 	 	 
+ 	 	
+       <tr>
+ 	 	<td><label id="pret" for="Pret">Pret/produs:</label></td>
+ 	 	<td><p id="product">&nbsp;</p><span>lei</span></td>
+ 	 	<td></td> 
+       </tr>
+
+ 
+ 	 	 <tr>
+ 	 	<td><label for="cantitate">Selecteaza cantitate:<br></label></td>
+ 	 	<td><input type="number" id="number" min="1" max="100"></td>
+ 	 	<td><button id="calculate" type="submit" onclick="finalPrice()">calculeaza</button></td> 
+ 	 	 </tr> 
+
+ 	 	    
+
+  
+        <tr>
+ 	 
+ 	 <td><label for="pretFinal">Pret final:</label></td> 
+
+ 	 	<td><p id="pretFinal">&nbsp;</p><span>lei</span></td> 
+ 	 	<td></td>
+
+ 	 </tr>
+
+ 	 <tr>	
+ 	    <td></td> 
+ 	 	<td></td>
+ 	 	<td><button id="displayTotal" onclick="displayTotal()">Adauga in cos &#128722;</button></td> 
+  
+ 	 </tr>
+
+  	 </table>
+
+ <div id="productInvoice">
+
+<a href="https://www.youtube.com/watch?v=SXegK7H6pTU" target="_blank" id="youtubeVideo"><img src="images/aniversar.png" alt="imagineLink" id="imagineLink"></a>
+  
+
+   <table id="invoiceTable">
+ 		   <tr>
+ 		 	<th style="width:8%">Nr.crt</th>
+ 		 	<th>Denumire produs</th>
+ 		 	<th>Cantitate</th>
+ 		 	<th>Pret/produs</th>
+ 		 	<th>Pret final</th>
+ 		 	<th>Anulare</th>
+ 		 </tr>
+       </table>
+ 
+
+
+ </div>	
+
+ <div id="sumFooter">
+  <button id="sumButton" onclick="totalSum()">Calculeaza total:</button>
+     <p id="totalSum">&nbsp;</p>
+   <button id="invoiceButton" onclick="sendForm()">Trimite comanda</button>
+   </div>
+  
+  </div> 
+  </div>
+
+
+ 
+
+<div id="bottomBorder">
+  <a href="http://www.lecombirotica.ro/modul--Contact.html" target="_blank" class="contactUs">Contacteaza-ne aici &#9743;</a>
+  <p class="contactUs">sau aici:</p>
+  <a href="https://www.facebook.com/lecombirotica" target="_blank"><img src="images/facebook_icon.png" alt="facebook" id="facebookIcon"></a>
+  <a href="https://www.youtube.com/user/lecombiroticardeal" target="_blank"><img src="images/youtube_icon.png" alt="youtube" id="youtubeIcon"></a>
+</div>
+
+
+
+
+</body>
+</html>
