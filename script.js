@@ -12,7 +12,7 @@ $('#infoLink').mouseover(function() {
  	 
  	  $(this).each(function(){
  		$('#imageDisplayFrame').empty();   
- 		 $(this).clone().prependTo('#imageDisplayFrame').width("35.2em").height("36.5em").css('border','none');	
+ 		 $(this).clone().prependTo('#imageDisplayFrame').width("35.2vw").height("36.5vw").css('border','none');	
  		 });
  	  });
  		
