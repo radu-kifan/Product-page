@@ -8,8 +8,8 @@ html,body,*{
  
 
 #header{
-   width:100%;
-   height:9rem;
+   width:96vw;
+   height:10vw;
    /*background-color:#AFEEEE; */
    background-image: linear-gradient(to right,#AFEEEE,#7FFFD4,#E0FFFF);
    position:relative;
@@ -41,17 +41,17 @@ html,body,*{
 #logo{
 	font-family:"Bauhaus 93";
 	color:#1C365B;
-	font-size:5rem;
+	font-size:5vw;
 	font-weight: 900;
 	position:relative;
-	margin:0.2rem 0.8rem;
+	margin:0.2vw 0.8vw;
 }
 
 #black{
 	width:32%;
 	margin-top:1px; 
 	float:left;
-	font-size:4.5rem;
+	font-size:4.5vw;
     font-style: italic;
 	font-family: Cooper Black;
 	animation-name: fadeIn;
@@ -66,10 +66,10 @@ html,body,*{
 
  #edition{
  	width:45%;
- 	margin-top:3rem;
- 	margin-left: 0.3rem;
+ 	margin-top:3vw;
+ 	margin-left: 0.3vw;
  	float:left;
- 	font-size:4.5rem;
+ 	font-size:4.5vw;
 	font-style: italic;
 	font-family: Cooper Black;
 	animation-name: secondfadeIn;
@@ -96,12 +96,12 @@ img[alt*="blackLogo"]{
 img[alt^="faber"]{
 	width:95%;
 	height:60%;
-	margin-top:2rem; 
+	margin-top:2vw; 
 }
 
 #facebookIcon{
-	width:2.5rem;
-	height:2.5rem;
+	width:2.5vw;
+	height:2.5vw;
 	position:relative;
 	left:35%;
 	top:15%;
@@ -109,8 +109,8 @@ img[alt^="faber"]{
 	 }
 
 #youtubeIcon{
-	width:2rem;
-	height:2rem;
+	width:2vw;
+	height:2vw;
 	position:relative;
 	left:35%;
 	top:5%;
@@ -129,8 +129,8 @@ img[alt^="faber"]{
 
  
 #headerBorder{
-	width:100%;
-	height:3rem;
+	width:96vw;
+	height:3.4vw;
 	background-color:#2F4F4F;
 	position:relative;
 }
@@ -138,17 +138,17 @@ img[alt^="faber"]{
 #infoLink{
 	 
 	color:white;
-	font-size:1.1rem;
-    left:44.1%;
+	font-size:1.1vw;
+    left:44.2%;
     position:relative;
 	display:block;
-	width:11.52rem;
-	height:3rem; 
-	padding: 0.8rem;
+	width:11.7vw;
+	height:3.35vw; 
+	padding: 0.8vw;
 	font-family: Georgia;
-	letter-spacing: 0.1rem;
+	letter-spacing: 0.1vw;
 	text-align: center;
-	border-radius: 0.3rem;
+	border-radius: 0.6vw;
 	background-color: #696969;
 	  }
 
@@ -160,18 +160,18 @@ img[alt^="faber"]{
 
 #infoSection{
 	background-color: #BBFFFF;
-	border:0.2rem solid #2F4F4F;
+	border:0.2vw solid #2F4F4F;
     border-style:hidden solid solid;
 	text-align: center;
-	width: 60rem;
-	height: 18rem;
-	padding-top:2.5%;
+	width: 60vw;
+	height: 19vw;
+	padding-top:2%;
 	font-family: Tahoma;
-	font-size:1.2rem;
-	line-height: 2rem;
+	font-size:1.2vw;
+	line-height: 2vw;
 	color:#2F4F4F;
 	margin:0 auto;
-	border-radius: 2rem;
+	border-radius: 2vw;
 	display:none;
 	position:absolute;
 	left:14%;
@@ -180,14 +180,14 @@ img[alt^="faber"]{
 }
 
 #close{
-	font-size:0.9rem;
+	font-size:0.9vw;
 	font-weight: bolder;
-	padding:0.3rem 0.6rem;
+	padding:0.3vw 0.6vw;
 	background-color: #2F4F4F;
 	color:white;
-	border:0.1rem solid white;
-	margin-top: 0.6rem;
-	margin-left: 0.2rem;
+	border:0.1vw solid white;
+	margin-top: 0.6vw;
+	margin-left: 0.2vw;
 
 }
 
@@ -199,37 +199,37 @@ img[alt^="faber"]{
  
 
 #mainTitle{
-	width:77rem;
-	height:20rem;
+	width:77vw;
+	height:20vw;
     position:relative;
-    margin:0.1rem auto;
+    margin:0.1vw auto;
 	border:1px solid #EEE5DE;
 	background-color: white;
-	box-shadow: 0.7rem 0.7rem 1rem #EEE5DE;
-	border-left:0.2rem #EEE5DE;
-	border-top:0.2rem #EEE5DE;
+	box-shadow: 0.7vw 0.7vw 1vw#EEE5DE;
+	border-left:0.2vw #EEE5DE;
+	border-top:0.2vw #EEE5DE;
     }
 
 img[alt^="gamaCulori"]{
-	width:77rem;
-	height:20rem;
+	width:77vw;
+	height:20vw;
 }
 
      
 #productSection{
-	width:77rem;
-	height:54rem;
+	width:77vw;
+	height:54vw;
 	 
 	position:relative;
-	margin:1rem auto 0.5rem;
+	margin:1vw auto 0.5vw;
 
 	 
    }
 
 
 #imageGallery{
-	width:40rem;
-	height:52rem;
+	width:40vw;
+	height:52vw;
 	 
 	float:left;
 	position: relative;
@@ -237,21 +237,21 @@ img[alt^="gamaCulori"]{
 	}
 
 #imageDisplayFrame{
-	width:38.6rem;
-	height:40rem;
-	margin:0.8rem 0 2.5rem;
-	border:0.1rem solid #EBEBEB;
-	box-shadow: 0.5rem 0.5rem 0.6rem #EBEBEB;
+	width:38.6vw;
+	height:40vw;
+	margin:0.8vw 0 2.5vw;
+	border:0.1vw solid #EBEBEB;
+	box-shadow: 0.5vw 0.5vw 0.6vw #EBEBEB;
 }
 
 img[alt^="creioane"]{
-	height:8.4rem;
-	width:5.8rem;
+	height:8.4vw;
+	width:5.8vw;
 	display:inline;
-	border:0.1rem solid #EBEBEB;
-	margin-right:0.4rem;
-	margin-top: 0.5rem;
-	box-shadow: 0.3rem 0.3rem 0.4rem #EBEBEB;
+	border:0.1vw solid #EBEBEB;
+	margin-right:0.4vw;
+	margin-top: 0.5vw;
+	box-shadow: 0.3vw 0.3vw 0.4vw #EBEBEB;
 	 
 	 }
 
@@ -261,20 +261,20 @@ img[alt^="creioane"]:hover{
 }
 
 #startImage{
-	width:38rem;
-	height:39rem;
+	width:38vw;
+	height:39vw;
 }	 
 
 #productInfo{
-	width:35rem;
-	height:25rem;
+	width:35vw;
+	height:25vw;
 	background-color:#ADD8E6;    
 	float:left;
-    padding-top: 1rem;
-    padding-left: 1.2rem;
+    padding-top: 1vw;
+    padding-left: 1.2vw;
 	border:1px solid #4682B4;
-	margin-top: 0.8rem;
-	border-radius: 0.8rem;
+	margin-top: 0.8vw;
+	border-radius: 0.8vw;
 
 }
 
@@ -285,8 +285,8 @@ table,tr,td{
  }
 
  td{
- 	width:10.5rem;
- 	height:4rem;
+ 	width:10.5vw;
+ 	height:4vw;
  }
 
  tr:hover{
@@ -308,27 +308,33 @@ table,tr,td{
 
 #product,#pretFinal{
 	background-color: white;
-	width:4rem;
-	height:1.7rem;
+	width:4vw;
+	height:1.7vw;
 	border:1px solid #6495ED;
-	border-radius: 0.6rem;
+	border-radius: 0.6vw;
 	text-align: center;
 	display:inline-block;
-	margin-right: 0.2rem;
+	margin-right: 0.2vw;
 }
 
 #number{
-	width:4rem;
-	border-radius: 0.6rem;
-	height:1.7rem;
+	width:4vw;
+	border-radius: 0.6vw;
+	height:1.7vw;
 	border:1px solid #6495ED;
 	text-align: center;
 	float:left;
 }
 
+
+label{
+	font-size: 1.1vw;
+}
+
 select{
-	height:2.1rem;
-	border-radius: 0.8rem;
+	width:13vw;
+	height:2.1vw;
+	border-radius: 0.8vw;
 	color:#191970;
 	font-family: Tahoma;
 	font-weight:bold;
@@ -349,11 +355,11 @@ input{
  
  
  button{
-	margin-top:1rem;
-	padding:0.5rem;
-	border-radius:0.8rem;
+	margin-top:1vw;
+	padding:0.5vw;
+	border-radius:0.8vw;
 	font-family: Tahoma;
-	font-size:1rem;
+	font-size:1vw;
 	color:white;
 	background-color: #2F4F4F;
 	border:none;
@@ -361,24 +367,24 @@ input{
 }
 
 #productInvoice{
-	width:35rem;
-	height:23rem;
+	width:35vw;
+	height:23vw;
 	border:1px solid #48D1CC;
 	position:relative;
-	margin-top:4rem;
+	margin-top:4vw;
 	right:4%;
-	border-radius: 0.8rem;
+	border-radius: 0.8vw;
     overflow-y: scroll; 
     background-color: #E0FFFF;
-    padding: 1rem;
+    padding: 1vw;
     visibility: hidden;
 }
 
  
 #productInvoice::-webkit-scrollbar {
-  width: 1rem;
+  width: 1vw;
   background-color:#20B2AA;
-  border-radius: 1.2rem;
+  border-radius: 1.2vw;
 
 }
  
@@ -392,22 +398,22 @@ input{
 }
 
 #imagineLink{
-	width:30rem;
-	height:22rem;
+	width:30vw;
+	height:22vw;
 	position:absolute;
 	visibility: visible;
 }
  
  th{
  	border:2px solid #48D1CC;
- 	padding: 0.5em;
+ 	padding: 0.5vw;
   
- 	font-size: 0.9rem;
+ 	font-size: 0.9vw;
  	font-weight: normal;
  }
  
  #invoiceTable{
- 	font-size:0.8rem;
+ 	font-size:0.8vw;
  	text-align: center;
  	border-collapse: collapse;
 }
@@ -423,7 +429,7 @@ input{
 	background-color: #AFEEEE;
 	border:1.2px solid #191970;
 	color:#191970;
-	font-size:0.9rem;
+	font-size:0.9vw;
 	position: relative;
 	left: 36%;
 
@@ -432,16 +438,16 @@ input{
 
 #totalSum{
 	background-color: #F5F5F5;
-	width: 6rem;
-	height: 2.4rem;
+	width: 6vw;
+	height: 2.4vw;
 	border:1px solid  #8B8378;
-	border-radius: 0.5rem;
-	margin-top: 1rem;
+	border-radius: 0.5vw;
+	margin-top: 1vw;
 	text-align: center;
-	font-size: 1rem;
+	font-size: 1vw;
 	font-weight: bolder; 
 	font-family: Arial;
-	padding-top: 0.7rem;
+	padding-top: 0.7vw;
 	color:#191970;
 
 	 
@@ -451,9 +457,9 @@ input{
  
 
 #cancelButton{
-	width:2rem;
-	height:2rem;
-	font-size:1rem;
+	width:2vw;
+	height:2vw;
+	font-size:1vw;
 	color:#191970;
 	margin:0 auto;
 	background-color: #E0FFFF;
@@ -462,13 +468,13 @@ input{
 
 
 #sumButton{
-    width:8rem;
-    height:2.5rem;
-    font-size:0.9rem;
+    width:8vw;
+    height:2.5vw;
+    font-size:0.9vw;
     font-family: Tahoma;
-    border-radius:0.5rem;
+    border-radius:0.5vw;
     margin-right: 0.8px;
-    margin-left: 0.2rem;
+    margin-left: 0.2vw;
     letter-spacing: 0.4px;
  }
  
@@ -480,11 +486,11 @@ input{
  	align-items: center;
  	align-content: center;
  	border:1px solid #48D1CC;
- 	border-radius:0.5rem;
- 	width:35rem;
- 	height:3rem;
- 	padding-bottom:1rem;
-    margin-top: -0.3rem;
+ 	border-radius:0.5vw;
+ 	width:35vw;
+ 	height:3vw;
+ 	padding-bottom:1vw;
+    margin-top: -0.3vw;
     position:relative;
  	right:4%;
  	background-color:#E0FFFF; 
@@ -508,7 +514,7 @@ input{
 
 #bottomBorder{
 	width:100%;
-	height:3rem;
+	height:3vw;
 	background-color:#2F4F4F;
 	position:relative;
  }
@@ -518,9 +524,9 @@ input{
 	text-decoration: none;
 	position:relative;
 	left:35%;
-	font-size:1.2rem;
+	font-size:1.2vw;
 	display: inline;
-	margin-right: 0.8rem;
+	margin-right: 0.8vw;
 	font-family:Calibri;
 	bottom:15%;
 	transition:color 3s,ease-in-out;
@@ -530,3 +536,5 @@ input{
 	color:#00FFFF;
 
 }
+
+/* rezolutii responsive 640 x 280 , 360 x 560 */
